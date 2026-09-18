@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>MUD10LO - Jugadores</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="hdr">
+      <div class="logo">MUD10LO</div>
+
+      <div class="hdr-r">
+        <div class="search">
+          <div class="inp">Buscar jugador o seleccion</div>
+          <button class="btn">Buscar</button>
+        </div>
+
+        <div class="avatar">
+          <svg width="18" height="18" viewBox="0 0 256 256" fill="currentColor" aria-label="Usuario">
+            <path d="M128 32a48 48 0 1 0 48 48 48 48 0 0 0-48-48Zm0 80a80 80 0 0 0-80 80 8 8 0 0 0 8 8h144a8 8 0 0 0 8-8 80 80 0 0 0-80-80Z"/>
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <a href="inicio.html"><div>Inicio</div></a>
+      <a href="mundiales.html"><div>Mundiales</div></a>
+      <a href="goleadores.html"><div>Goleadores</div></a>
+      <a href="asistidores.html"><div>Asistidores</div></a>
+      <a href="estadisticas.html"><div>Estadisticas</div></a>
+      <a href="equipos.html"><div>Equipos</div></a>
+      <a href="jugadores.html"><div class="on">Jugadores</div></a>
+    </nav>
+
+    <main class="wrap">
+      <div class="hd">
+        <div>
+          <h1>Jugadores</h1>
+          <div class="mut hd-subtitle">Mundial 2026 &middot; Estadisticas completas de todos los jugadores</div>
+        </div>
+
+        <div class="sel">
+          <div class="k">Posicion</div>
+          <div class="box">
+            <span>Todos</span>
+            <span class="grn">&#9662;</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rule"></div>
+
+      <div class="card table-card table-card-spaced">
+        <div class="row thead squad-row">
+          <div>Jugador</div>
+          <div>Seleccion</div>
+          <div class="r">Pos</div>
+          <div class="r">PJ</div>
+          <div class="r">Min</div>
+          <div class="r">Goles</div>
+          <div class="r">Asist.</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-fra">KM</div>
+            <div>
+              <div class="nm">Kylian Mbappé</div>
+              <div class="sub">Real Madrid</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-fra"></div>
+            <div class="team-label">Francia</div>
+          </div>
+          <div class="r mut">DC</div>
+          <div class="r r-value">6</div>
+          <div class="r mut">540'</div>
+          <div class="met met-sm">10</div>
+          <div class="met met-sm">5</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-esp">LY</div>
+            <div>
+              <div class="nm">Lamine Yamal</div>
+              <div class="sub">FC Barcelona</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-esp"></div>
+            <div class="team-label">España</div>
+          </div>
+          <div class="r mut">ED</div>
+          <div class="r r-value">7</div>
+          <div class="r mut">596'</div>
+          <div class="met met-sm">5</div>
+          <div class="met met-sm">6</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-arg">JÁ</div>
+            <div>
+              <div class="nm">Julián Álvarez</div>
+              <div class="sub">Atlético Madrid</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-arg"></div>
+            <div class="team-label">Argentina</div>
+          </div>
+          <div class="r mut">DC</div>
+          <div class="r r-value">7</div>
+          <div class="r mut">612'</div>
+          <div class="met met-sm">7</div>
+          <div class="met met-sm">3</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-bra">VJ</div>
+            <div>
+              <div class="nm">Vinícius Jr.</div>
+              <div class="sub">Real Madrid</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-bra"></div>
+            <div class="team-label">Brasil</div>
+          </div>
+          <div class="r mut">EI</div>
+          <div class="r r-value">6</div>
+          <div class="r mut">528'</div>
+          <div class="met met-sm">6</div>
+          <div class="met met-sm">3</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-eng">HK</div>
+            <div>
+              <div class="nm">Harry Kane</div>
+              <div class="sub">Bayern München</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-eng"></div>
+            <div class="team-label">Inglaterra</div>
+          </div>
+          <div class="r mut">DC</div>
+          <div class="r r-value">5</div>
+          <div class="r mut">450'</div>
+          <div class="met met-sm">6</div>
+          <div class="met met-sm">2</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-ned">CG</div>
+            <div>
+              <div class="nm">Cody Gakpo</div>
+              <div class="sub">Liverpool</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-ned"></div>
+            <div class="team-label">Países Bajos</div>
+          </div>
+          <div class="r mut">EI</div>
+          <div class="r r-value">5</div>
+          <div class="r mut">441'</div>
+          <div class="met met-sm">5</div>
+          <div class="met met-sm">2</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-ger">JM</div>
+            <div>
+              <div class="nm">Jamal Musiala</div>
+              <div class="sub">Bayern München</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-ger"></div>
+            <div class="team-label">Alemania</div>
+          </div>
+          <div class="r mut">MCO</div>
+          <div class="r r-value">5</div>
+          <div class="r mut">430'</div>
+          <div class="met met-sm">4</div>
+          <div class="met met-sm">3</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-por">RL</div>
+            <div>
+              <div class="nm">Rafael Leão</div>
+              <div class="sub">AC Milan</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-por"></div>
+            <div class="team-label">Portugal</div>
+          </div>
+          <div class="r mut">EI</div>
+          <div class="r r-value">5</div>
+          <div class="r mut">402'</div>
+          <div class="met met-sm">4</div>
+          <div class="met met-sm">2</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-esp">R</div>
+            <div>
+              <div class="nm">Rodri</div>
+              <div class="sub">Manchester City</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-esp"></div>
+            <div class="team-label">España</div>
+          </div>
+          <div class="r mut">MCD</div>
+          <div class="r r-value">7</div>
+          <div class="r mut">630'</div>
+          <div class="met met-sm">1</div>
+          <div class="met met-sm">5</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-por">BF</div>
+            <div>
+              <div class="nm">Bruno Fernandes</div>
+              <div class="sub">Manchester United</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-por"></div>
+            <div class="team-label">Portugal</div>
+          </div>
+          <div class="r mut">MCO</div>
+          <div class="r r-value">5</div>
+          <div class="r mut">468'</div>
+          <div class="met met-sm">2</div>
+          <div class="met met-sm">4</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-eng">BS</div>
+            <div>
+              <div class="nm">Bukayo Saka</div>
+              <div class="sub">Arsenal</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-eng"></div>
+            <div class="team-label">Inglaterra</div>
+          </div>
+          <div class="r mut">ED</div>
+          <div class="r r-value">5</div>
+          <div class="r mut">420'</div>
+          <div class="met met-sm">3</div>
+          <div class="met met-sm">3</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-mar">YE</div>
+            <div>
+              <div class="nm">Youssef En-Nesyri</div>
+              <div class="sub">Fenerbahçe</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-mar"></div>
+            <div class="team-label">Marruecos</div>
+          </div>
+          <div class="r mut">DC</div>
+          <div class="r r-value">4</div>
+          <div class="r mut">360'</div>
+          <div class="met met-sm">4</div>
+          <div class="met met-sm">1</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-bel">KD</div>
+            <div>
+              <div class="nm">Kevin De Bruyne</div>
+              <div class="sub">Napoli</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-bel"></div>
+            <div class="team-label">Bélgica</div>
+          </div>
+          <div class="r mut">MCO</div>
+          <div class="r r-value">4</div>
+          <div class="r mut">340'</div>
+          <div class="met met-sm">1</div>
+          <div class="met met-sm">4</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-ned">FD</div>
+            <div>
+              <div class="nm">Frenkie de Jong</div>
+              <div class="sub">FC Barcelona</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-ned"></div>
+            <div class="team-label">Países Bajos</div>
+          </div>
+          <div class="r mut">MC</div>
+          <div class="r r-value">5</div>
+          <div class="r mut">450'</div>
+          <div class="met met-sm">0</div>
+          <div class="met met-sm">4</div>
+        </div>
+
+        <div class="row squad-row">
+          <div class="namecol">
+            <div class="ini ini-sm ini-cro">LM</div>
+            <div>
+              <div class="nm">Luka Modrić</div>
+              <div class="sub">AC Milan</div>
+            </div>
+          </div>
+          <div class="teamcol">
+            <div class="fl flag-sm flag-cro"></div>
+            <div class="team-label">Croacia</div>
+          </div>
+          <div class="r mut">MC</div>
+          <div class="r r-value">4</div>
+          <div class="r mut">305'</div>
+          <div class="met met-sm">0</div>
+          <div class="met met-sm">3</div>
+        </div>
+      </div>
+
+      <div class="h3 h3-mb14">Destacados</div>
+
+      <div class="g4">
+        <div class="card rel pad">
+          <div class="tint tint-fra"></div>
+          <div class="on-top team-card-head">
+            <div class="fl flag-md flag-fra"></div>
+            <div class="feature-info">
+              <div class="bebas team-card-name">Kylian Mbappé</div>
+              <div class="sub">Francia &middot; DC</div>
+            </div>
+            <div class="bebas feature-rank">10</div>
+          </div>
+          <div class="on-top feature-stats-grid">
+            <div>
+              <div class="k">PJ</div>
+              <div class="feature-stat-value">6</div>
+            </div>
+            <div>
+              <div class="k">Goles</div>
+              <div class="feature-stat-value">10</div>
+            </div>
+            <div>
+              <div class="k">Asist.</div>
+              <div class="feature-stat-value">5</div>
+            </div>
+          </div>
+          <div class="on-top grn feature-link">Ver perfil &rarr;</div>
+        </div>
+
+        <div class="card rel pad">
+          <div class="tint tint-esp"></div>
+          <div class="on-top team-card-head">
+            <div class="fl flag-md flag-esp"></div>
+            <div class="feature-info">
+              <div class="bebas team-card-name">Lamine Yamal</div>
+              <div class="sub">España &middot; ED</div>
+            </div>
+            <div class="bebas feature-rank">19</div>
+          </div>
+          <div class="on-top feature-stats-grid">
+            <div>
+              <div class="k">PJ</div>
+              <div class="feature-stat-value">7</div>
+            </div>
+            <div>
+              <div class="k">Goles</div>
+              <div class="feature-stat-value">5</div>
+            </div>
+            <div>
+              <div class="k">Asist.</div>
+              <div class="feature-stat-value">6</div>
+            </div>
+          </div>
+          <div class="on-top grn feature-link">Ver perfil &rarr;</div>
+        </div>
+
+        <div class="card rel pad">
+          <div class="tint tint-arg"></div>
+          <div class="on-top team-card-head">
+            <div class="fl flag-md flag-arg"></div>
+            <div class="feature-info">
+              <div class="bebas team-card-name">Julián Álvarez</div>
+              <div class="sub">Argentina &middot; DC</div>
+            </div>
+            <div class="bebas feature-rank">9</div>
+          </div>
+          <div class="on-top feature-stats-grid">
+            <div>
+              <div class="k">PJ</div>
+              <div class="feature-stat-value">7</div>
+            </div>
+            <div>
+              <div class="k">Goles</div>
+              <div class="feature-stat-value">7</div>
+            </div>
+            <div>
+              <div class="k">Asist.</div>
+              <div class="feature-stat-value">3</div>
+            </div>
+          </div>
+          <div class="on-top grn feature-link">Ver perfil &rarr;</div>
+        </div>
+
+        <div class="card rel pad">
+          <div class="tint tint-bra"></div>
+          <div class="on-top team-card-head">
+            <div class="fl flag-md flag-bra"></div>
+            <div class="feature-info">
+              <div class="bebas team-card-name">Vinícius Jr.</div>
+              <div class="sub">Brasil &middot; EI</div>
+            </div>
+            <div class="bebas feature-rank">7</div>
+          </div>
+          <div class="on-top feature-stats-grid">
+            <div>
+              <div class="k">PJ</div>
+              <div class="feature-stat-value">6</div>
+            </div>
+            <div>
+              <div class="k">Goles</div>
+              <div class="feature-stat-value">6</div>
+            </div>
+            <div>
+              <div class="k">Asist.</div>
+              <div class="feature-stat-value">3</div>
+            </div>
+          </div>
+          <div class="on-top grn feature-link">Ver perfil &rarr;</div>
+        </div>
+
+        <div class="card rel pad">
+          <div class="tint tint-eng"></div>
+          <div class="on-top team-card-head">
+            <div class="fl flag-md flag-eng"></div>
+            <div class="feature-info">
+              <div class="bebas team-card-name">Harry Kane</div>
+              <div class="sub">Inglaterra &middot; DC</div>
+            </div>
+            <div class="bebas feature-rank">9</div>
+          </div>
+          <div class="on-top feature-stats-grid">
+            <div>
+              <div class="k">PJ</div>
+              <div class="feature-stat-value">5</div>
+            </div>
+            <div>
+              <div class="k">Goles</div>
+              <div class="feature-stat-value">6</div>
+            </div>
+            <div>
+              <div class="k">Asist.</div>
+              <div class="feature-stat-value">2</div>
+            </div>
+          </div>
+          <div class="on-top grn feature-link">Ver perfil &rarr;</div>
+        </div>
+
+        <div class="card rel pad">
+          <div class="tint tint-ned"></div>
+          <div class="on-top team-card-head">
+            <div class="fl flag-md flag-ned"></div>
+            <div class="feature-info">
+              <div class="bebas team-card-name">Cody Gakpo</div>
+              <div class="sub">Países Bajos &middot; EI</div>
+            </div>
+            <div class="bebas feature-rank">11</div>
+          </div>
+          <div class="on-top feature-stats-grid">
+            <div>
+              <div class="k">PJ</div>
+              <div class="feature-stat-value">5</div>
+            </div>
+            <div>
+              <div class="k">Goles</div>
+              <div class="feature-stat-value">5</div>
+            </div>
+            <div>
+              <div class="k">Asist.</div>
+              <div class="feature-stat-value">2</div>
+            </div>
+          </div>
+          <div class="on-top grn feature-link">Ver perfil &rarr;</div>
+        </div>
+
+        <div class="card rel pad">
+          <div class="tint tint-ger"></div>
+          <div class="on-top team-card-head">
+            <div class="fl flag-md flag-ger"></div>
+            <div class="feature-info">
+              <div class="bebas team-card-name">Jamal Musiala</div>
+              <div class="sub">Alemania &middot; MCO</div>
+            </div>
+            <div class="bebas feature-rank">10</div>
+          </div>
+          <div class="on-top feature-stats-grid">
+            <div>
+              <div class="k">PJ</div>
+              <div class="feature-stat-value">5</div>
+            </div>
+            <div>
+              <div class="k">Goles</div>
+              <div class="feature-stat-value">4</div>
+            </div>
+            <div>
+              <div class="k">Asist.</div>
+              <div class="feature-stat-value">3</div>
+            </div>
+          </div>
+          <div class="on-top grn feature-link">Ver perfil &rarr;</div>
+        </div>
+
+        <div class="card rel pad">
+          <div class="tint tint-por"></div>
+          <div class="on-top team-card-head">
+            <div class="fl flag-md flag-por"></div>
+            <div class="feature-info">
+              <div class="bebas team-card-name">Rafael Leão</div>
+              <div class="sub">Portugal &middot; EI</div>
+            </div>
+            <div class="bebas feature-rank">17</div>
+          </div>
+          <div class="on-top feature-stats-grid">
+            <div>
+              <div class="k">PJ</div>
+              <div class="feature-stat-value">5</div>
+            </div>
+            <div>
+              <div class="k">Goles</div>
+              <div class="feature-stat-value">4</div>
+            </div>
+            <div>
+              <div class="k">Asist.</div>
+              <div class="feature-stat-value">2</div>
+            </div>
+          </div>
+          <div class="on-top grn feature-link">Ver perfil &rarr;</div>
+        </div>
+      </div>
+
+      <section class="quick-links">
+        <div class="bebas grn quick-links-title">ACCESOS RAPIDOS</div>
+        <div class="g3">
+          <div class="qa">
+            <div class="ic">
+              <svg width="15" height="15" viewBox="0 0 256 256" fill="currentColor">
+                <circle cx="128" cy="128" r="96"/>
+              </svg>
+            </div>
+            <div class="quick-link-item">Explorar mundiales</div>
+            <div class="grn quick-link-arrow">&rarr;</div>
+          </div>
+
+          <div class="qa">
+            <div class="ic">
+              <svg width="15" height="15" viewBox="0 0 256 256" fill="currentColor">
+                <circle cx="128" cy="128" r="96"/>
+              </svg>
+            </div>
+            <div class="quick-link-item">Ver equipos</div>
+            <div class="grn quick-link-arrow">&rarr;</div>
+          </div>
+
+          <div class="qa">
+            <div class="ic">
+              <svg width="15" height="15" viewBox="0 0 256 256" fill="currentColor">
+                <circle cx="128" cy="128" r="96"/>
+              </svg>
+            </div>
+            <div class="quick-link-item">Ver clasificaciones</div>
+            <div class="grn quick-link-arrow">&rarr;</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
